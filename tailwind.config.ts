@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // nếu bạn dùng React
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}', // path tới các file bạn dùng Tailwind
   ],
   theme: {
     extend: {},
