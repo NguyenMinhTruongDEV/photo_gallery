@@ -9,7 +9,7 @@ const MainContent: React.FC = () => {
 
   return (
     <div className="flex-1 flex flex-col">
-      <Header searchQuery={searchQuery} onSearch={setSearchQuery} />;
+      <Header searchQuery={searchQuery} onSearch={setSearchQuery} />
 
       <div className="flex flex-1">
         <aside className="border-r border-gray-200 p-4 sticky top-16 h-[calc(100vh-4rem)] overflow-y-auto">
